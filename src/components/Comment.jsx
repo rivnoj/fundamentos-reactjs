@@ -24,14 +24,14 @@ export function Comment({content, onDeleteComment}) {
         <div className={styles.comment}>
             <Avatar 
                 hasBorder={false}
-                src="http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4762515E0"
+                src="https://github.com/maykbrito.png"
             />
 
             <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
                     <header>
                         <div className={styles.authorAndTime}>
-                            <strong>Rivaldo de Oliveira</strong>
+                            <strong>Mayk Brito</strong>
 
                             <time title='6 de novembro às 10:19' dateTime='2023-11-06 10:19:00'> Cerca de 1 hora atrás</time>
                         </div>
